@@ -1,0 +1,117 @@
+/* VARIABLES DE COLOR */
+:root { /* root evita repeticiones y permite modificar más de una cosa */
+    --color-header: #2a4d7d;
+    --color-texto-header: #ffffff;
+    --color-borde-tabla: #000000;
+    --color-fondo-tabla: #f8f9fa;
+    --color-patio: #cccccc;
+    --color-sistemas: #ff3f3f;
+    --color-proyecto: #c051c0;
+    --color-bases: #ffff73;
+    --color-lenguaje: greenyellow;
+    --color-entornos: #1b66ac;
+    --color-ingles: #4998ff;
+    --color-fol: #949494;
+    --color-programacion: #ff6e39;
+    --color-trabajo: #ffff73;
+}
+
+/* BODY */
+body {
+    background-color: #dfe4ec;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* HEADER */
+header {
+    background-color: #2a4d7d;
+    color: white;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    width: 100%;
+    z-index: 10;
+}
+
+/* BARRA DE NAVEGACIÓN */
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #5683ff;
+    border-radius: 5px;
+}
+
+/* TABLAS */
+table {
+    border-collapse: collapse;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid var(--color-borde-tabla);
+    padding: 10px;
+}
+
+th {
+    background-color: var(--color-header);
+    color: var(--color-texto-header);
+}
+
+td {
+    background-color: var(--color-fondo-tabla);
+}
+
+.patio {
+    background-color: var(--color-patio);
+    font-weight: bold;
+    text-align: center;
+}
+
+.color-sistemas { background-color: var(--color-sistemas); }
+.color-proyecto { background-color: var(--color-proyecto); }
+.color-bases { background-color: var(--color-bases); }
+.color-lenguaje { background-color: var(--color-lenguaje); }
+.color-entornos { background-color: var(--color-entornos); }
+.color-ingles { background-color: var(--color-ingles); }
+.color-fol { background-color: var(--color-fol); }
+.color-programacion { background-color: var(--color-programacion); }
+.color-trabajo { background-color: var(--color-trabajo); }
+
+/* FOOTER */
+footer {
+    background-color: var(--color-header);
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: 20px;
+}

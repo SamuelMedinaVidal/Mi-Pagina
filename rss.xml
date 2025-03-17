@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Página de Samuel</title>
+        <link>https://tusitio.com/index.html</link>
+        <description>Actualizaciones sobre Samuel Medina Vidal</description>
+        <language>es</language>
+
+        <!-- Item 1: Mi Experiencia -->
+        <item>
+            <title>Mi Experiencia</title>
+            <link>https://tusitio.com/index.html#MiExperiencia</link>
+            <description>En esta sección se detalla mi experiencia laboral y en informática.</description>
+            <pubDate>Mon, 17 Mar 2025 12:00:00 GMT</pubDate>
+        </item>
+
+        <!-- Item 2: Datos Académicos -->
+        <item>
+            <title>Datos Académicos</title>
+            <link>https://tusitio.com/index.html#DatosAcademicos</link>
+            <description>Estudios realizados, incluyendo mi formación en el IES El Caminàs y la Escuela Oficial de Idiomas.</description>
+            <pubDate>Sun, 16 Mar 2025 10:30:00 GMT</pubDate>
+        </item>
+
+        <!-- Item 3: Habilidades -->
+        <item>
+            <title>Habilidades</title>
+            <link>https://tusitio.com/index.html#Habilidades</link>
+            <description>En esta sección menciono mis principales habilidades como trabajo en equipo y capacidad de oratoria.</description>
+            <pubDate>Sat, 15 Mar 2025 14:00:00 GMT</pubDate>
+        </item>
+
+        <!-- Item 4: Idiomas -->
+        <item>
+            <title>Idiomas</title>
+            <link>https://tusitio.com/index.html#Idiomas</link>
+            <description>Detalles sobre los idiomas que hablo: Castellano, Valenciano, Inglés y Lengua de Signos Española.</description>
+            <pubDate>Fri, 14 Mar 2025 18:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Horario</title>
+    <link rel="stylesheet" href="horario.css">
+</head>
+<body>
+    <header>
+        <h1>Mis Horarios</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="horario.html">Mi Horario</a></li>
+                <li><a href="hablame.html">Háblame</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Horario de Clases</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Hora</th>
+                        <th>Lunes</th>
+                        <th>Martes</th>
+                        <th>Miércoles</th>
+                        <th>Jueves</th>
+                        <th>Viernes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>08:00 - 09:50</td>
+                        <td rowspan="2" class="color-sistemas">Sistemas Informáticos</td>
+                        <td class="color-proyecto">Proyecto Intermodular</td>
+                        <td rowspan="2" class="color-bases">Base de Datos</td>
+                        <td rowspan="2" class="color-lenguaje">Lenguaje de Marcas</td>
+                        <td class="color-entornos">Entornos de Desarrollo</td>
+                    </tr>
+                    <tr>
+                        <td>08:55 - 09:50</td>
+                        <td rowspan="2" class="color-entornos">Entornos de Desarrollo</td>
+                        <td class="color-ingles">Inglés</td>
+                    </tr>
+                    <tr>
+                        <td>09:50 - 10:45</td>
+                        <td class="color-bases">Base de Datos</td>
+                        <td class="color-sistemas">Sistemas Informáticos</td>
+                        <td class="color-fol">FOL</td>
+                        <td class="color-programacion">Programación</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" class="patio">PATIO</td>
+                    </tr>
+                    <tr>
+                        <td>11:10 - 13:00</td>
+                        <td rowspan="2" class="color-bases">Base de Datos</td>
+                        <td class="color-fol">FOL</td>
+                        <td rowspan="2" class="color-sistemas">Sistemas Informáticos</td>
+                        <td rowspan="3" class="color-programacion">Programación</td>
+                        <td rowspan="2" class="color-programacion">Programación</td>
+                    </tr>
+                    <tr>
+                        <td>12:05 - 13:00</td>
+                        <td class="color-programacion">Programación</td>
+                    </tr>
+                    <tr>
+                        <td>13:00 - 13:55</td>
+                        <td class="color-lenguaje">Lenguaje de Marcas</td>
+                        <td class="color-ingles">Inglés</td>
+                        <td class="color-fol">FOL</td>
+                        <td class="color-fol">FOL</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Horario de Trabajo</h2>
+            <p>Mi horario de trabajo varía cada semana, trabajando 5 días y librando dos días. Estas tablas representan la disponibilidad horaria de mi trabajo.</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Hora</th>
+                        <th colspan="5">Lunes - Viernes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>17:00 - 22:30</td>
+                        <td colspan="5" class="color-trabajo">Trabajo</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Hora</th>
+                        <th>Sábado</th>
+                        <th>Domingo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>13:00 - 18:00</td>
+                        <td colspan="2" class="color-trabajo">Trabajo</td>
+                    </tr>
+                    <tr>
+                        <td>18:00 - 22:30</td>
+                        <td colspan="2" class="color-trabajo">Trabajo</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Samuel Medina Vidal. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

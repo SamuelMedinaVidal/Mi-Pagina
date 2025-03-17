@@ -1,0 +1,123 @@
+/* BODY */
+body {
+    background-color: #dfe4ec;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* HEADER */
+header {
+    background-color: #2a4d7d;
+    color: white;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    width: 100%;
+    z-index: 10;
+}
+
+/* BARRA DE NAVEGACIÓN */
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #5683ff;
+    border-radius: 5px;
+}
+
+/* CONTACTO Y FORMULARIO */
+main {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.section-contacto, .section-formulario {
+    width: 80%;
+    padding: 30px;
+    background-color: #e7e9ec;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px #0000001a;
+    text-align: center;
+}
+
+.section-formulario {
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+input, textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+.boton {
+    background-color: #2a4d7d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.boton:hover {
+    background-color: #5683ff;
+}
+
+.boton:active{
+    transform: scale(0.95);
+}
+
+/* FOOTER */
+footer {
+    background-color: #2a4d7d;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: 30px;
+}
